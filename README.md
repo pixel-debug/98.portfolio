@@ -21,7 +21,7 @@ Welcome to my portfolio, designed to transport you back to the nostalgic days of
 **Clone the repository:**
 
 ```bash
-git clone https://github.com/AlexandreDresch/98.portfolio.git
+git clone https://github.com/pixel-debug/98.portfolio.git
 ```
 
 **Install dependencies:**
@@ -30,8 +30,6 @@ git clone https://github.com/AlexandreDresch/98.portfolio.git
 cd 98.portfolio
 npm install
 ```
-
-**Populate `.env` file based on `.env.EXAMPLE`**
 
 **Run the development server:**
 
