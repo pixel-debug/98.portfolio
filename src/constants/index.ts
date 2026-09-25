@@ -1,4 +1,4 @@
-import { Folder } from "@/types";
+import { Folder, type Project } from "@/types";
 
 export const FooterMessages = [
   {
@@ -958,3 +958,5 @@ export const allMobileApps = [
     iconImage: "/pixelated-envelope-mail-icon-windows-98.jpg",
   },
 ];
+
+export const projects: Project[] = []

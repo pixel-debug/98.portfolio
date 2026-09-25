@@ -99,13 +99,21 @@ export default function Shortcut({ folder, children }: ShortcutProps) {
     };
   }, [isDragging, dragStart]);
 
-  const handleDoubleClick = () => {
-    dispatch(clearSelectedFile());
-    if (!isOpen) {
-      dispatch(openWindow(folder.id));
-    }
-    dispatch(activateWindow(folder.id));
-  };
+const handleDoubleClick = () => {
+  dispatch(clearSelectedFile());
+
+  if (folder.name === "Contact me") {
+    dispatch(openWindow(12));
+    dispatch(activateWindow(12));
+    return;
+  }
+
+  if (!isOpen) {
+    dispatch(openWindow(folder.id));
+  }
+
+  dispatch(activateWindow(folder.id));
+};
 
   const handleShortcutClick = () => {
     dispatch(clearSelectedFile());

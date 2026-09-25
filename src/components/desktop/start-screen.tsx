@@ -60,7 +60,7 @@ export default function StartScreen() {
 
           <div className="w-[260.8px]">
             <p>:98.portfolio</p>
-            <p>:Alexandre Dresch</p>
+            <p>:Marina</p>
           </div>
         </div>
 

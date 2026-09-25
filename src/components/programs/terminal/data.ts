@@ -263,7 +263,7 @@ export const CREDITS = `
   ║                                      ║
   ║  Built with:  React + TypeScript     ║
   ║  Styled with: TailwindCSS            ║
-  ║  Author:      Alexandre Dresch       ║
+  ║  Author:      Marina                 ║
   ║                                      ║
   ║  Inspired by:                        ║
   ║  - Windows 98 (obviously)            ║

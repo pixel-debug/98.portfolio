@@ -55,7 +55,7 @@ export function AboutDialog({
             <br />
             For 98.portfolio
             <br />
-            © 1997–(today) Alexandre Dresch Corp.
+            © 1998–(today) Marina Bernardes Diniz.
             <br />
             <br />
             <div className="font-bold text-sm mb-1.5">Paint</div>
@@ -64,7 +64,7 @@ export function AboutDialog({
               <br />
               For 98.portfolio
               <br />
-              © 1997–(today) Alexandre Dresch Corp.
+              © 1998–(today) Marina Bernardes Diniz.
               <br />
               <br />
               <span className="text-[10px] text-[#666]">

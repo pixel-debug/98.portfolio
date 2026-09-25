@@ -105,7 +105,7 @@ export default function WelcomeMessage(): JSX.Element {
 
       <p ref={subtitleRef}>
         {renderText(
-          "by Alexandre Dresch",
+          "by Marina",
           "text-3xl font-inter text-right",
           100,
         )}

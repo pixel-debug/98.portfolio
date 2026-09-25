@@ -10,11 +10,8 @@ import { ScreenSaverRenderer } from "./screen-saver-renderer";
 
 export function ScreensaverManager() {
   const { applied } = useAppSelector((s) => s.settings);
-
   const waitMs = applied.screenSaver.waitMinutes * 60 * 1000;
-
   const isIdle = useIdle(waitMs);
-
   const [active, setActive] = useState(false);
 
   useEffect(() => {

@@ -129,7 +129,7 @@ export default function MobileLayout() {
                 const doc = byName(name);
                 return (
                   <AppIcon
-                    key={doc.id}
+                    // key={doc.id}
                     item={doc}
                     small
                     onClick={handleFolderClick}

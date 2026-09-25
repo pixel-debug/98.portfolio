@@ -23,6 +23,8 @@ import MonitorReceiver from "@/components/shared/monitor-receiver";
 import ImageViewer from "../programs/image-viewer/image-viewer";
 import DocumentViewer from "../programs/document-viewer/document-viewer";
 import DocumentViewerShortcut from "../programs/document-viewer/document-viewer-shortcut";
+import Notepad from "../programs/notepad/notepad";
+import { notepadContents } from "../programs/notepad/notepad-content";
 
 const Paint = dynamic(() => import("../programs/paint/paint"), {
   ssr: false,
@@ -65,9 +67,7 @@ export default function Desktop() {
                 {folder.name === "Mobile" && (
                   <NotAvailable message="Not available yet." />
                 )}
-                {folder.name === "Contact me" && (
-                  <NotAvailable message="Not available yet." />
-                )}
+                {folder.name === "Contact me" && null}
                 {folder.name === "Control Panel" && (
                   <FolderContainer>
                     <ControlPanel />
@@ -86,27 +86,24 @@ export default function Desktop() {
 
             <Clippy />
 
-            <WelcomeMessage />
+            {/* <WelcomeMessage /> */}
           </div>
         )}
 
         <Doom />
-
         <DisplayProperties />
-
         <Terminal />
-
         <Winamp />
-
         <Paint />
-
         <InternetExplorer />
-
         <MonitorReceiver />
-
         <ImageViewer />
-
         <DocumentViewer />
+        <Notepad
+          id={12}
+          title={notepadContents.aboutMe.title}
+          text={notepadContents.aboutMe.text}
+        />
       </>
     </DesktopContextMenu>
   );

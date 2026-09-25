@@ -79,7 +79,7 @@ export default function Dock() {
                 </h1>
               </div>
               <div className="w-full pr-2">
-                <DropdownMenuLabel>Alexandre Dresch</DropdownMenuLabel>
+                <DropdownMenuLabel>Marina</DropdownMenuLabel>
 
                 <DropdownMenuSeparator />
 
@@ -161,7 +161,7 @@ export default function Dock() {
 
                 <DropdownMenuItem>
                   <Link
-                    href="https://github.com/AlexandreDresch"
+                    href="https://github.com/pixel-debug"
                     target="_blank"
                   >
                     GitHub
@@ -171,7 +171,7 @@ export default function Dock() {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    href="https://www.linkedin.com/in/alexandre-dresch/"
+                    href="https://www.linkedin.com/in/marina-bernardes-diniz/"
                     target="_blank"
                   >
                     LinkedIn

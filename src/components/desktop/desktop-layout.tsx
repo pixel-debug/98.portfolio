@@ -90,7 +90,7 @@ export default function DesktopLayout() {
               backgroundColor: "#008080",
 
               backgroundRepeat:
-                wallpaperMode === "tile" ? "repeat" : "no-repeat",
+                wallpaperMode === "tile" ? "no-repeat" : "repeat",
 
               backgroundSize:
                 wallpaperMode === "fill"

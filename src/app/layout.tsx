@@ -27,7 +27,7 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   title: "98.portfolio",
-  description: "Alexandre Dresch's portfolio",
+  description: "Marina's portfolio",
 };
 
 export default function RootLayout({
